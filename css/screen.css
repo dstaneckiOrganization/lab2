@@ -2,12 +2,7 @@
   width: device-width ;
   zoom: 1.0 ;
 } 
-@-ms-viewport {
-  width: device-width ;
-}
-body {
-	background-color: lightblue;
-}
+
 
 input{
 	padding: 100px 10px;
@@ -24,7 +19,6 @@ input{
   }
   div {
 	-ms-transform: scale(1.1, 1.1);
-	-webkit-transform: scale(1.1, 1.1);
 	transform: scale(1.1, 1.1);
   }
 }
